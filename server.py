@@ -33,7 +33,7 @@ def connectPCM():
 
 ################Establish Connection with the quadcopter######
 def connectCopter():
-    system("QGC.AppImage 2>/dev/null&")
+    #system("QGC.AppImage 2>/dev/null&")
     ####Connecting to drone via mavlink#######################
     parser=argparse.ArgumentParser(description='commands')
     parser.add_argument('--connect')
