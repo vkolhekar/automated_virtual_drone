@@ -221,9 +221,7 @@ def download_mission():
     return missionlist
 #################SAVE MISSION FILE############################
 def save_mission():
-    """
-    Save a mission in the Waypoint file format (http://qgroundcontrol.org/mavlink/waypoint_protocol#waypoint_file_format).
-    """
+
     aFileName='test_missions.txt'
     missionlist = download_mission()
     output='QGC WPL 110\n'
